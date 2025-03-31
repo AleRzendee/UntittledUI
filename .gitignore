@@ -24,3 +24,10 @@ dist-ssr
 *.sw?
 
 .vscode
+
+# Environment files
+
+.env.example
+.env.example/
+.env.development.local
+.enn.test.local

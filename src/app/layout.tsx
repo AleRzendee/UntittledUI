@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
     title: 'Painel Tool',
+    icons: {
+        icon: '@/public/box-minimalistic-svgrepo-com.svg',
+    },
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {

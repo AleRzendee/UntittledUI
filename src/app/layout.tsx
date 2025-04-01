@@ -1,12 +1,19 @@
-import { ReactNode } from 'react'
-import next from 'next';
+import './globals.css'
 
-import "./globals.css"
+import { ReactNode } from 'react'
+import { Inter } from 'next/font/google'
+import { Sidebar } from '@/components/Sidebar'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata = {
+    title: 'Painel Tool',
+}
 
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="en">
-            <body>
+            <body className={inter.className}>
                 <div className="relative min-h-screen dark:bg-zinc-900 lg:grid lg:grid-cols-app">
                     <Sidebar />
 

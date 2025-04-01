@@ -53,14 +53,14 @@ export default function Home() {
                                 name="firstName"
                                 id="firstName"
                                 type="text"
-                                defaultValue="Diego"
+                                defaultValue="Gustavo"
                             />
                         </Input.Root>
                         <Input.Root>
                             <Input.Control
                                 name="lastName"
                                 type="text"
-                                defaultValue="Fernandes"
+                                defaultValue="Rezende"
                             />
                         </Input.Root>
                     </div>
@@ -81,8 +81,8 @@ export default function Home() {
                             <Input.Control
                                 id="email"
                                 type="email"
-                                name="email"
-                                defaultValue="diego.schell.f@gmail.com"
+                                defaultValue="gustavo.rezende@gmail.com"
+
                             />
                         </Input.Root>
                     </div>
@@ -120,7 +120,7 @@ export default function Home() {
                             <Input.Control
                                 name="role"
                                 id="role"
-                                defaultValue="Product Designer"
+                                defaultValue="Desenvolvedor Full Stack"
                             />
                         </Input.Root>
                     </div>
@@ -204,7 +204,7 @@ export default function Home() {
                         <Textarea
                             name="bio"
                             id="bio"
-                            defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development."
+                            defaultValue="I'm a Dev Full Stack based in Dallas, EUA. I specialise in Next.js, Python, and Typescript development."
                         />
                     </div>
                 </div>

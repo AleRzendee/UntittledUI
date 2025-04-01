@@ -16,7 +16,7 @@ export function Profile() {
           Gustavo Rezende
         </span>
         <span className="block text-sm text-zinc-500 dark:text-zinc-400">
-          devgustavorezende@outlook.com
+          gustavo.rezende@gmail.com
         </span>
       </div>
       <Button variant="ghost" className="ml-auto">
